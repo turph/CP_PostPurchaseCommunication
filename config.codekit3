@@ -1090,6 +1090,22 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/img\/voucher2-chicago.png": {
+		"ft": 32768,
+		"iS": 1220,
+		"oA": 0,
+		"oAP": "\/img\/voucher2-chicago.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/img\/voucher2-seattle.png": {
+		"ft": 32768,
+		"iS": 18737,
+		"oA": 0,
+		"oAP": "\/img\/voucher2-seattle.png",
+		"oF": 0,
+		"opt": 1
+		},
 	"\/includes\/barcode\/barcode.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -1551,6 +1567,16 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/scss\/css\/contentBlocks.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/scss\/css\/contentBlocks-min.css",
+		"oF": 0,
+		"oS": 0
 		},
 	"\/scss\/css\/contentWrapper.css": {
 		"aP": 0,
