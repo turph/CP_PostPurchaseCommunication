@@ -1,0 +1,10 @@
+#emailConfirmationIntro .intro {
+  float: left;
+  width: 65%; }
+  #emailConfirmationIntro .intro .name {
+    font-weight: bold; }
+#emailConfirmationIntro .logo {
+  float: right; }
+
+.phoneViewport #emailConfirmationIntro .intro {
+  clear: both; }

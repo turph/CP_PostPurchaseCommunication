@@ -1,0 +1,22 @@
+.email_header{
+	height:40px;border-bottom:3px solid $red;
+	.logo{
+		float:left;height:40px;width:130px;margin-left:10px;
+		background-size:contain;
+		background-repeat:no-repeat;
+	}
+	.title{float:right;color:$black;margin:8px 10px 0 0;}
+}
+
+
+.phoneViewport{
+	.email_header{
+		height:30px;border-bottom:2px solid $red;
+		.logo{
+			float:left;height:30px;width:95px;
+			background-size:contain;
+			background-repeat:no-repeat;
+		}
+		.title{float:right;color:$black;margin-top:6px;font-size:14px;}
+	}
+}

@@ -1,0 +1,39 @@
+html {font-size: 14px;}
+body {
+  font-family:'Arial', serif;
+  font-weight:400;
+  color: $grey1;
+}
+.serif{font-family:'Lora', sans-serif;}
+h1, h2, h3, h4, h5, p {
+  margin: 0 0 0.5em 0;
+  font-weight: inherit;
+  line-height: 1.25;
+}
+p {margin-bottom: 14px;line-height: 1.25}
+h1{margin-top: 0;font-size: 3.998em;font-weight:700;}
+h2{font-size: 2.827em;font-weight:600;}
+h3{font-size: 1.999em;font-weight:600;}
+h4{font-size: 18px;}
+h5{font-size: 16px;}
+.font_medium {font-size: 12px;}
+.font_small {font-size: 10px;}
+.highlight{color:red;}
+
+
+.phoneViewport{
+	font-size:13px;
+	h1, h2, h3, h4, h5, p {
+	  margin: 0 0 0.5em 0;
+	  font-weight: inherit;
+	  line-height: 1.5;
+	}
+}
+
+
+
+// Email project specific typography
+.title{@extend h4;color:$grey3;font-weight:bold;padding-bottom:30px;}
+.sectionTitle{@extend h5;color:$red;}
+
+.legal{@extend .font_small;color:$grey2;}

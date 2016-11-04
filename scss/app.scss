@@ -1,0 +1,41 @@
+// Application Style Controller
+// Description: Set Imports and Variables (Image) Here
+
+// Paths Relative to /app/_/css
+// ------------------------------------------------------------------------
+
+$img-url: "../img";
+
+// Example of how to use -- background: url("#{$img-url}/background-image.png") repeat top left;
+
+// Include Libaries
+// @import "libraries";
+
+// Mixins
+// ------------------------------------------------------------------------
+@import "mixins/general";
+@import "mixins/spacing";
+
+// Global page layouts
+// ------------------------------------------------------------------------
+@import "globals/layout";
+
+// Color Palette & Mixins for the Application
+// ------------------------------------------------------------------------
+@import "globals/colors";
+@import "globals/typography";
+@import "globals/fonts";
+
+// Components & Page Types
+// ------------------------------------------------------------------------
+@import "components/emailMockup";
+@import "components/navigationBar";
+@import "components/contentWrapper";
+@import "components/header";
+@import "components/intro";
+@import "components/orderDetails";
+@import "components/voucherDetails";
+@import "components/footer";
+
+// Mobile Specific Styles & Settings
+@import "globals/mobile";

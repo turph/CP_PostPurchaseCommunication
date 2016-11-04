@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".toggleView").click(function(){$("div.largeViewport").toggleClass("phoneViewport"),"Large Screen Format"==$(this).text()?$(this).text("Phone Screen Format"):$(this).text("Large Screen Format")})});

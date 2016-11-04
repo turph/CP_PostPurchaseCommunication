@@ -1,0 +1,39 @@
+#confirmationEmail #details{
+	border-top:1px solid $grey3;
+	border-bottom:1px solid $grey3;
+	padding-top:12px;
+	.sectiontitle{color:$red;}
+	.number{color:$black;}
+	.overview_a, .overview_b{
+		padding-bottom:1.25em;
+		border-bottom:1px solid $grey4;
+		font-size:.8em;
+		& > div{float:left;width:33%;}
+		.group{font-weight:bold;margin-top:1.25em;}
+		p{margin:0;padding:0;line-height:1.25em;}
+	}
+	.overview_b{margin-bottom:2em;}
+	.overview_c{font-size:.8em;}
+	.itemized{
+		font-size:.8em;width:100%;margin-bottom:12px;
+		th{text-transform:uppercase;border-bottom:1px solid $grey2;}
+		th:nth-of-type(1){text-align:left;};
+		th:nth-of-type(n+2){text-align:right;width:10%;padding-left:5px;};
+		tbody td{line-height:1.55em;}
+		td:nth-of-type(1){text-align:left;padding-left:5px;};
+		td:nth-of-type(n+2){text-align:right;};
+		tfoot td{line-height:1.25em;}
+		tfoot td:nth-of-type(1){text-align:right;font-weight:bold;text-transform:uppercase;};
+		tfoot tr:first-child td{border-top:1px solid #d1d3d4;};
+		tfoot tr:last-child{color:$red;font-weight:bold;};
+	}
+}
+
+
+.phoneViewport{
+	#confirmationEmail #details{
+		.overview{
+			.ticket, .contact, .billing{width:50%;margin:0;}
+		}
+	}
+}

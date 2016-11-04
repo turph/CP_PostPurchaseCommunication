@@ -1,0 +1,328 @@
+@import url("http://fonts.googleapis.com/css?family=Varela");
+@import url("http://fonts.googleapis.com/css?family=Lora");
+.space_4 {
+  padding-top: 4px;
+  padding-bottom: 4px; }
+
+.space_8 {
+  padding-top: 8px;
+  padding-bottom: 8px; }
+
+.space_10 {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.space_12 {
+  padding-top: 12px;
+  padding-bottom: 12px; }
+
+.space_20 {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.space_32 {
+  padding-top: 32px;
+  padding-bottom: 32px; }
+
+.space_48 {
+  padding-top: 48px;
+  padding-bottom: 48px; }
+
+.space_60 {
+  padding-top: 60px;
+  padding-bottom: 60px; }
+
+.space_75 {
+  padding-top: 75px;
+  padding-bottom: 75px; }
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0; }
+
+.clearfix {
+  display: block; }
+
+html[xmlns] .clearfix {
+  display: block; }
+
+* html .clearfix {
+  height: 1%; }
+
+html {
+  font-size: 14px; }
+
+body {
+  font-family: 'Arial', serif;
+  font-weight: 400;
+  color: #58595B; }
+
+.serif {
+  font-family: 'Lora', sans-serif; }
+
+h1, h2, h3, h4, .title, h5, .sectionTitle, p {
+  margin: 0 0 0.5em 0;
+  font-weight: inherit;
+  line-height: 1.25; }
+
+p {
+  margin-bottom: 14px;
+  line-height: 1.25; }
+
+h1 {
+  margin-top: 0;
+  font-size: 3.998em;
+  font-weight: 700; }
+
+h2 {
+  font-size: 2.827em;
+  font-weight: 600; }
+
+h3 {
+  font-size: 1.999em;
+  font-weight: 600; }
+
+h4, .title {
+  font-size: 18px; }
+
+h5, .sectionTitle {
+  font-size: 16px; }
+
+.font_medium, .email .navigationBar ul.useCaseList {
+  font-size: 12px; }
+
+.font_small, .legal {
+  font-size: 10px; }
+
+.highlight {
+  color: red; }
+
+.phoneViewport {
+  font-size: 13px; }
+  .phoneViewport h1, .phoneViewport h2, .phoneViewport h3, .phoneViewport h4, .phoneViewport .title, .phoneViewport h5, .phoneViewport .sectionTitle, .phoneViewport p {
+    margin: 0 0 0.5em 0;
+    font-weight: inherit;
+    line-height: 1.5; }
+
+.title {
+  color: #D1D3D4;
+  font-weight: bold;
+  padding-bottom: 30px; }
+
+.sectionTitle {
+  color: #EB0029; }
+
+.legal {
+  color: #929497; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+.email section {
+  margin: 10px; }
+.email .email_header {
+  border-bottom: 3px solid #EB0029;
+  width: 100%; }
+  .email .email_header img {
+    margin: 0 0 4px 10px; }
+.email .largeViewport .email_header {
+  padding-top: 30px; }
+  .email .largeViewport .email_header img {
+    height: 42px; }
+.email .phoneViewport .email_header {
+  padding-top: 15px; }
+  .email .phoneViewport .email_header img {
+    height: 32px; }
+
+.email .navigationBar {
+  width: 325px;
+  height: 100%;
+  background-color: #F1F2F2;
+  padding: .45em;
+  position: fixed;
+  float: left; }
+  .email .navigationBar div {
+    margin-bottom: 2em;
+    border-bottom: 1px solid #D1D3D4; }
+  .email .navigationBar ul.useCaseList {
+    margin-left: -32px;
+    list-style: none; }
+    .email .navigationBar ul.useCaseList li {
+      line-height: 2em;
+      padding-left: .25em; }
+    .email .navigationBar ul.useCaseList li a.active {
+      display: block;
+      padding-left: .5em;
+      font-weight: bold;
+      background-color: green;
+      color: #fff; }
+
+.email .content {
+  margin-left: 350px;
+  float: left;
+  width: 2175px; }
+  .email .content #confirmationEmail, .email .content #voucherEmail, .email .content #voucherDocument {
+    float: left;
+    margin-right: 20px; }
+  .email .content .emailBody {
+    background-color: #fff; }
+  .email .content .largeViewport {
+    width: 700px;
+    background-color: #F1F2F2; }
+    .email .content .largeViewport .emailWidth {
+      width: 600px;
+      margin-left: 50px; }
+  .email .content .phoneViewport {
+    width: 320px;
+    background-color: #F1F2F2;
+    padding: 0 10px; }
+    .email .content .phoneViewport .emailWidth {
+      width: 100%;
+      margin: 0; }
+
+.email_header {
+  height: 40px;
+  border-bottom: 3px solid #EB0029; }
+  .email_header .logo {
+    float: left;
+    height: 40px;
+    width: 130px;
+    margin-left: 10px;
+    background-size: contain;
+    background-repeat: no-repeat; }
+  .email_header .title {
+    float: right;
+    color: #000;
+    margin: 8px 10px 0 0; }
+
+.phoneViewport .email_header {
+  height: 30px;
+  border-bottom: 2px solid #EB0029; }
+  .phoneViewport .email_header .logo {
+    float: left;
+    height: 30px;
+    width: 95px;
+    background-size: contain;
+    background-repeat: no-repeat; }
+  .phoneViewport .email_header .title {
+    float: right;
+    color: #000;
+    margin-top: 6px;
+    font-size: 14px; }
+
+#intro .intro {
+  float: left;
+  width: 65%; }
+  #intro .intro .name {
+    font-weight: bold; }
+#intro .logo {
+  float: right; }
+
+.phoneViewport #intro .intro {
+  float: none;
+  width: 100%; }
+.phoneViewport #intro .logo {
+  float: none;
+  width: 100%;
+  text-align: center; }
+
+#confirmationEmail #details {
+  border-top: 1px solid #D1D3D4;
+  border-bottom: 1px solid #D1D3D4;
+  padding-top: 12px; }
+  #confirmationEmail #details .sectiontitle {
+    color: #EB0029; }
+  #confirmationEmail #details .number {
+    color: #000; }
+  #confirmationEmail #details .overview_a, #confirmationEmail #details .overview_b {
+    padding-bottom: 1.25em;
+    border-bottom: 1px solid #F1F2F2;
+    font-size: .8em; }
+    #confirmationEmail #details .overview_a > div, #confirmationEmail #details .overview_b > div {
+      float: left;
+      width: 33%; }
+    #confirmationEmail #details .overview_a .group, #confirmationEmail #details .overview_b .group {
+      font-weight: bold;
+      margin-top: 1.25em; }
+    #confirmationEmail #details .overview_a p, #confirmationEmail #details .overview_b p {
+      margin: 0;
+      padding: 0;
+      line-height: 1.25em; }
+  #confirmationEmail #details .overview_b {
+    margin-bottom: 2em; }
+  #confirmationEmail #details .overview_c {
+    font-size: .8em; }
+  #confirmationEmail #details .itemized {
+    font-size: .8em;
+    width: 100%;
+    margin-bottom: 12px; }
+    #confirmationEmail #details .itemized th {
+      text-transform: uppercase;
+      border-bottom: 1px solid #929497; }
+    #confirmationEmail #details .itemized th:nth-of-type(1) {
+      text-align: left; }
+    #confirmationEmail #details .itemized th:nth-of-type(n+2) {
+      text-align: right;
+      width: 10%;
+      padding-left: 5px; }
+    #confirmationEmail #details .itemized tbody td {
+      line-height: 1.55em; }
+    #confirmationEmail #details .itemized td:nth-of-type(1) {
+      text-align: left;
+      padding-left: 5px; }
+    #confirmationEmail #details .itemized td:nth-of-type(n+2) {
+      text-align: right; }
+    #confirmationEmail #details .itemized tfoot td {
+      line-height: 1.25em; }
+    #confirmationEmail #details .itemized tfoot td:nth-of-type(1) {
+      text-align: right;
+      font-weight: bold;
+      text-transform: uppercase; }
+    #confirmationEmail #details .itemized tfoot tr:first-child td {
+      border-top: 1px solid #d1d3d4; }
+    #confirmationEmail #details .itemized tfoot tr:last-child {
+      color: #EB0029;
+      font-weight: bold; }
+
+.phoneViewport #confirmationEmail #details .overview .ticket, .phoneViewport #confirmationEmail #details .overview .contact, .phoneViewport #confirmationEmail #details .overview .billing {
+  width: 50%;
+  margin: 0; }
+
+#voucherEmail #details {
+  border-top: 1px solid #D1D3D4;
+  border-bottom: 1px solid #D1D3D4;
+  padding-top: 12px; }
+  #voucherEmail #details .sectiontitle {
+    color: #EB0029; }
+  #voucherEmail #details .number {
+    color: #000; }
+  #voucherEmail #details .overview_a, #voucherEmail #details .overview_b {
+    padding-bottom: 1.25em;
+    border-bottom: 1px solid #F1F2F2;
+    font-size: .8em; }
+    #voucherEmail #details .overview_a .group, #voucherEmail #details .overview_b .group {
+      font-weight: bold;
+      margin-top: 1.25em; }
+    #voucherEmail #details .overview_a p, #voucherEmail #details .overview_b p {
+      margin: 0;
+      padding: 0;
+      line-height: 1.25em; }
+  #voucherEmail #details .overview_b {
+    margin-bottom: 2em; }
+
+.phoneViewport #voucherEmail #details .overview .ticket, .phoneViewport #voucherEmail #details .overview .contact, .phoneViewport #voucherEmail #details .overview .billing {
+  width: 50%;
+  margin: 0; }
+
+#footer {
+  text-align: center; }
+
+/* Large desktop */
+/* Portrait tablet to landscape and desktop */
+/* Landscape phone to portrait tablet */
+/* Landscape phones and down */

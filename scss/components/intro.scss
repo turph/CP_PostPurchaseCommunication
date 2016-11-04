@@ -1,0 +1,21 @@
+#intro{
+	.intro{
+		float:left;width:65%;
+		.name{font-weight:bold;}
+	}
+	.logo{
+		float:right;
+	}
+}
+
+
+.phoneViewport{
+	#intro{
+		.intro{
+			float:none;width:100%;
+		}
+		.logo{
+			float:none;width:100%;text-align:center;
+		}
+	}
+}

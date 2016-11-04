@@ -1,0 +1,26 @@
+#voucherEmail #details{
+	border-top:1px solid $grey3;
+	border-bottom:1px solid $grey3;
+	padding-top:12px;
+	.sectiontitle{color:$red;}
+	.number{color:$black;}
+	.overview_a, .overview_b{
+		padding-bottom:1.25em;
+		border-bottom:1px solid $grey4;
+		font-size:.8em;
+		.group{font-weight:bold;margin-top:1.25em;}
+		p{margin:0;padding:0;line-height:1.25em;}
+	}
+	.overview_b{
+		margin-bottom:2em;
+	}
+}
+
+
+.phoneViewport{
+	#voucherEmail #details{
+		.overview{
+			.ticket, .contact, .billing{width:50%;margin:0;}
+		}
+	}
+}
