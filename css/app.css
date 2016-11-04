@@ -119,21 +119,32 @@ h5, .sectionTitle {
 .legal {
   color: #929497; }
 
+.block {
+  background-color: #d2f1fa;
+  margin: 20px 0;
+  padding: 3px; }
+  .block .blockTitle {
+    color: #a3c6d0;
+    margin-bottom: 6px; }
+
 body {
   margin: 0;
   padding: 0; }
 
 .email section {
   margin: 10px; }
+
 .email .email_header {
   border-bottom: 3px solid #EB0029;
   width: 100%; }
   .email .email_header img {
     margin: 0 0 4px 10px; }
+
 .email .largeViewport .email_header {
   padding-top: 30px; }
   .email .largeViewport .email_header img {
     height: 42px; }
+
 .email .phoneViewport .email_header {
   padding-top: 15px; }
   .email .phoneViewport .email_header img {
@@ -216,20 +227,14 @@ body {
     font-size: 14px; }
 
 #intro .intro {
-  float: left;
-  width: 65%; }
+  float: none;
+  width: 100%; }
   #intro .intro .name {
     font-weight: bold; }
-#intro .logo {
-  float: right; }
 
 .phoneViewport #intro .intro {
   float: none;
   width: 100%; }
-.phoneViewport #intro .logo {
-  float: none;
-  width: 100%;
-  text-align: center; }
 
 #confirmationEmail #details {
   border-top: 1px solid #D1D3D4;
