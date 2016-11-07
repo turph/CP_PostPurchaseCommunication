@@ -1066,6 +1066,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/img\/mobilevoucher2-chicago.png": {
+		"ft": 32768,
+		"iS": 29158,
+		"oA": 0,
+		"oAP": "\/img\/mobilevoucher2-chicago.png",
+		"oF": 0,
+		"opt": 1
+		},
 	"\/img\/voucher-chicago.png": {
 		"ft": 32768,
 		"iS": 21785,
@@ -1808,7 +1816,7 @@
 	"creationDate": 499975778,
 	"displayValue": "CP-Email Mockup",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "meme-ive"
+	"iconImageName": "meme-yesBaby"
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
