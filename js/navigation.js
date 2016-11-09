@@ -62,8 +62,8 @@ $(document).ready(function(){
 		$("#uc2a #confirmationEmail #closing").load('includes/closing/closing.html');
 		$("#uc2a #confirmationEmail #legal").load('includes/legal/legal.html #confirmation');
 		$("#uc2a #confirmationEmail #footer").load('includes/footer/footer.html');
-		// Voucher Email
-		$("#uc2a #voucherEmail #header").load('includes/header/header.html #voucher');
+		// E-Ticket Email
+		$("#uc2a #voucherEmail #header").load('includes/header/header.html #eticket');
 		$("#uc2a #voucherEmail #intro").load('includes/intro/intro.html #uc2a_ve');
 		$("#uc2a #voucherEmail #details").load('includes/voucherDetails/voucherDetails.html #uc2a_ve');
 		$("#uc2a #voucherEmail #support").load('includes/support/support.html');
@@ -110,8 +110,8 @@ $(document).ready(function(){
 		$("#uc2c #confirmationEmail #closing").load('includes/closing/closing.html');
 		$("#uc2c #confirmationEmail #legal").load('includes/legal/legal.html #confirmation');
 		$("#uc2c #confirmationEmail #footer").load('includes/footer/footer.html');
-		// Voucher Email
-		$("#uc2c #voucherEmail #header").load('includes/header/header.html #voucher');
+		// E-Ticket Email
+		$("#uc2c #voucherEmail #header").load('includes/header/header.html #eticket');
 		$("#uc2c #voucherEmail #intro").load('includes/intro/intro.html #uc1a_ve');
 		$("#uc2c #voucherEmail #details").load('includes/voucherDetails/voucherDetails.html #uc2c_ve');
 		$("#uc2c #voucherEmail #support").load('includes/support/support.html');
