@@ -72,6 +72,7 @@ $(document).ready(function(){
 		$("#uc2a #voucherEmail #legal").load('includes/legal/legal.html #confirmation');
 		$("#uc2a #voucherEmail #footer").load('includes/footer/footer.html');
 		// Voucher
+		$("#uc2a #voucherDocument #intro").load('includes/intro/intro.html #uc2a_v');
 		$("#uc2a #voucherDocument #barcode").load('includes/barcode/barcode.html #uc2a_v');
 		$("#uc2a #voucherDocument #details").load('includes/voucher/voucherDetails.html #uc2a_v');
 		$("#uc2a #voucherDocument #support").load('includes/support/support.html');
@@ -120,6 +121,7 @@ $(document).ready(function(){
 		$("#uc2c #voucherEmail #legal").load('includes/legal/legal.html #confirmation');
 		$("#uc2c #voucherEmail #footer").load('includes/footer/footer.html');
 		// Voucher
+		$("#uc2c #voucherDocument #intro").load('includes/intro/intro.html #uc2a_v');
 		$("#uc2c #voucherDocument #barcode").load('includes/barcode/barcode.html #uc2a_v');
 		$("#uc2c #voucherDocument #details").load('includes/voucher/voucherDetails.html #uc2c_v');
 		$("#uc2c #voucherDocument #support").load('includes/support/support.html');
