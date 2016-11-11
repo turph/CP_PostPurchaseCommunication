@@ -225,6 +225,8 @@ $(document).ready(function(){
 		// Voucher Email - NONE
 		// Voucher - NONE
 	});
+	/*
+	Hiding C3 for now
 	$("#nav_uc4a").click(function() {
 		$("#uc4a").show("slow");
 		$("#uc1a, #uc1b, #uc2a, #uc2b, #uc2c, #uc2d, #uc3a, #uc3b, #uc3c").hide("slow");
@@ -249,5 +251,6 @@ $(document).ready(function(){
 		$("#uc4a #voucherEmail #legal").load('includes/legal/legal.html #confirmation');
 		$("#uc4a #voucherEmail #footer").load('includes/footer/footer.html');
 	});
+	*/
 
 });
